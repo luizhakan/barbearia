@@ -1,0 +1,112 @@
+
+body{
+    background: #051D3B;
+    padding: 0px;
+}
+
+h1{
+    color: rgb(66, 250, 20);
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+a{
+    color: rgb(66, 250, 20);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 25px;
+}
+    
+a:hover{
+    color: red;
+    border-width: thin;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.center{
+    color: rgb(66, 250, 20);
+    text-align: center;
+    padding: 0px;
+}
+
+.sobre{
+    background: black;
+    padding: 0px;
+}
+
+header{
+    display: inline;
+    padding-top: 20px;
+}
+
+.links{
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 30px;
+    left: 900px;
+    top: -130px;
+}
+
+h2{
+    color: rgb(66, 250, 20);
+    text-align: center;
+    padding: 0px;
+}
+
+#ttitle{
+    color: black;
+    text-shadow: 0 0 0.20em rgb(253, 0, 0);
+    font-size: 500%;
+    height: 100px;
+    border: 15px solid rgb(255, 0, 0);
+    padding: 0px;
+    margin: 0px;
+}
+
+strong{
+    color: red;
+}
+
+p{
+    color: rgb(66, 250, 20);
+    font-size: 25px;
+    text-align: center;
+}
+
+.beneficios{
+    background: #2f3b5d;
+    padding: 0px;
+}
+
+ul{
+    color: white;
+    vertical-align: top;
+    font-size: 30px;
+    font-style: italic;
+    display: inline-block;
+    width: 20%;
+    margin-right: 38%;
+}
+
+.bimg{
+    height: 293px;
+    width: 450px;
+}
+
+footer{
+    background-image: url(imagens/produtos/bg.jpg);
+    text-align: center;
+    padding: 5px 5px;
+    background-size: 10px 10px;
+}
+
+footer p{
+    color: white;
+}

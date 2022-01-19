@@ -1,0 +1,102 @@
+.bord{
+    position: relative;
+    border-width: thin;
+    border-style: solid;
+    border-color: red;
+    background: #051D3B;
+}
+
+header{
+    display: inline;
+    padding-top: 20px;
+}
+
+nav li{
+    position: relative;
+    display: inline;
+    font-size: 22px;
+    margin-left: 30px;
+    left: 900px;
+    top: -130px;
+}
+
+a{
+    color: rgb(66, 250, 20);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    border-width: thin;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.produtos h2{
+    text-align: center;
+    color: rgb(66, 250, 20);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 20px 30px;
+    margin: 1.2%;
+    border-width: thin;
+    border-style: solid;
+    border-color: red;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.produtos li:hover{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 10px 30px;
+    margin: 1%;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.produtos li:active{
+    border-color: rgb(66, 250, 20);
+}
+
+.produtos p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.preços{
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+footer{
+    background-image: url(imagens/produtos/bg.jpg);
+    text-align: center;
+    padding: 5px 5px;
+    background-size: 10px 10px;
+}
+
+footer p{
+    color: white;
+}

@@ -1,0 +1,112 @@
+.bord{
+    position: relative;
+    border-width: thin;
+    border-style: solid;
+    border-color: red;
+    background: #051D3B;
+}
+
+header{
+    display: inline;
+    padding-top: 20px;
+}
+
+nav li{
+    position: relative;
+    display: inline;
+    font-size: 22px;
+    margin-left: 30px;
+    left: 900px;
+    top: -130px;
+}
+
+a{
+    color: rgb(66, 250, 20);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    border-width: thin;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(66, 250, 20);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+main{
+    width: 940px;
+    margin: 0  auto;
+}
+
+.formtext{
+    margin: 40px 0;
+    margin-left: 20px;
+}
+
+.alinhamento{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.formtext textarea{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.formtext label{
+    color: #051D3B;
+    font-size: 25px;
+    font-weight: 900;
+    display: block;
+    margin-top: 20px;
+}
+
+#turno{
+    font-size: 25px;
+}
+
+.checkbox{
+    margin-top: 20px;
+}
+
+.enviar{
+    color: #051D3B;
+    font-size: 25px;
+    font-weight: 900;
+    display: block;
+    width: 54%;
+}
+
+.formtext p{
+    color: #051D3B;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 20px;
+    width: 50%;
+}
+
+footer{
+    background-image: url(imagens/produtos/bg.jpg);
+    text-align: center;
+    padding: 5px 5px;
+    background-size: 10px 10px;
+}
+
+footer p{
+    color: white;
+}
